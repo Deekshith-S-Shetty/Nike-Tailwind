@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import PopularProducts from "./sections/PopularProducts";
 import SuperQuality from "./sections/SuperQuality";
+import Services from "./sections/Services";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10">Services</section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
       <section className="padding">SpecialOffer</section>
       <section className="bg-pale-blue padding">CustomerReviews</section>
       <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
