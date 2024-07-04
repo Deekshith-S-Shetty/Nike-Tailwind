@@ -1,11 +1,14 @@
-import Nav from "./components/Nav";
-import Hero from "./sections/Hero";
-import PopularProducts from "./sections/PopularProducts";
-import SuperQuality from "./sections/SuperQuality";
-import Services from "./sections/Services";
-import SpecialOffer from "./sections/SpecialOffer";
-import CustomerReviews from "./sections/CustomerReviews";
-import Subscribe from "./sections/Subscribe";
+import { Nav } from "./components";
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
 
 function App() {
   return (
@@ -32,7 +35,9 @@ function App() {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
-      <section className=" bg-black padding-x padding-t pb-8">Footer</section>
+      <section className=" bg-black padding-x padding-t pb-8">
+        <Footer />
+      </section>
     </main>
   );
 }
